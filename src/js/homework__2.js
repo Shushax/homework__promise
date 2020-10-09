@@ -4,7 +4,7 @@ import read from './reader';
 export default class GameSavingLoader {
 
     static load() {
-        (async () => {
+        return (async () => {
             try {
                 const data = await read();
                 const value = await json(data);
