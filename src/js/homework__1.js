@@ -13,10 +13,5 @@ export default class GameSavingLoader {
             }).then((value) => {
                 return value; // ??? value или ???
             });
-            
-            
-            ((value) => {
-            return value;
-        })
     }
 }
