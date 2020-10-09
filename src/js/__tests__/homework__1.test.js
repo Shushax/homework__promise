@@ -10,5 +10,5 @@ test('load', () => {
                        "points":2000 
                     } 
                 } 
-    return expect(GameSavingLoader.load().resolves.toBe(data))
+    return expect(GameSavingLoader.load()).resolves.toEqual(data);
 });
