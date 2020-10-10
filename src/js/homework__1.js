@@ -11,7 +11,7 @@ export default class GameSavingLoader {
                 const value = json(data);
                 return value;
             }).then((value) => {
-                return value; // ??? value или ???
+                return JSON.parse(value); // ??? value или ???
             });
     }
 }
